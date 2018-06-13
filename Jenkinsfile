@@ -13,4 +13,7 @@ pipeline {
       }
     }
   }
+  environment {
+    REALLY_SECURE = 'BetterNotShow'
+  }
 }
