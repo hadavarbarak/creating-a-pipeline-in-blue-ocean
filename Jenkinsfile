@@ -15,6 +15,6 @@ pipeline {
   }
   environment {
     REALLY_SECURE = 'BetterNotShow'
-    HIDE_ME = 'environment(\'FNID_APP_ID\')'
+    HIDE_ME = 'credentials(\'FNID_APP_ID\')'
   }
 }
