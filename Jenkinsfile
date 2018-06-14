@@ -16,6 +16,6 @@ sudo npm install'''
   }
   environment {
     REALLY_SECURE = 'BetterNotShow'
-    HIDE_ME = 'credentials(\'FNID_APP_ID\')'
+    HIDE_ME = credentials('FNID_APP_ID')
   }
 }
