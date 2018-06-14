@@ -9,7 +9,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sudo npm install'
+        sh '''echo $HIDE_ME
+sudo npm install'''
       }
     }
   }
